@@ -1,7 +1,6 @@
 package de.tom;
 
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 /**
