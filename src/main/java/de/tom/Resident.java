@@ -9,65 +9,64 @@ import java.util.Date;
  */
 public class Resident implements Serializable {
 
-  private String givenName;
-  private String familyName;
-  private String street;
-  private String city;
-  private Date dateOfBirth;
-  
-  public Resident() {
-    super();
-  }
-  
-  public Resident(String givenName, String familyName, String street, String city, Date dateOfBirth) {
-    super();
-    this.givenName = givenName;
-    this.familyName = familyName;
-    this.street = street;
-    this.city = city;
-    this.dateOfBirth = dateOfBirth;
-  }
+	private String givenName;
+	private String familyName;
+	private String street;
+	private String city;
+	private Date dateOfBirth;
 
-  public String getGivenName() {
-    return givenName;
-  }
+	public Resident() {
+		super();
+	}
 
-  public void setGivenName(String givenName) {
-    this.givenName = givenName;
-  }
+	public Resident(String givenName, String familyName, String street,
+			String city, Date dateOfBirth) {
+		super();
+		this.givenName = givenName;
+		this.familyName = familyName;
+		this.street = street;
+		this.city = city;
+		this.dateOfBirth = dateOfBirth;
+	}
 
-  public String getFamilyName() {
-    return familyName;
-  }
+	public String getGivenName() {
+		return givenName;
+	}
 
-  public void setFamilyName(String familyName) {
-    this.familyName = familyName;
-  }
+	public void setGivenName(String givenName) {
+		this.givenName = givenName;
+	}
 
-  public String getStreet() {
-    return street;
-  }
+	public String getFamilyName() {
+		return familyName;
+	}
 
-  public void setStreet(String street) {
-    this.street = street;
-  }
+	public void setFamilyName(String familyName) {
+		this.familyName = familyName;
+	}
 
-  public String getCity() {
-    return city;
-  }
+	public String getStreet() {
+		return street;
+	}
 
-  public void setCity(String city) {
-    this.city = city;
-  }
+	public void setStreet(String street) {
+		this.street = street;
+	}
 
-  public Date getDateOfBirth() {
-    return dateOfBirth;
-  }
+	public String getCity() {
+		return city;
+	}
 
-  public void setDateOfBirth(Date dateOfBirth) {
-    this.dateOfBirth = dateOfBirth;
-  }
-  
-  
-  
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public Date getDateOfBirth() {
+		return dateOfBirth;
+	}
+
+	public void setDateOfBirth(Date dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+
 }
